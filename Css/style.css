@@ -16,18 +16,30 @@ body {
 }
 
 .carousel-item img {
-    height: 800px;
+    height: 600px;
     object-fit: cover;
     filter: brightness(55%);
 }
 
 .carousel-caption {
-    bottom: 40%;
+    top: 50%;
+    bottom: auto;
+    left: 10%;
+    right: 10%;
+    transform: translateY(-50%);
 }
 
 .carousel-caption h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.carousel-caption .btn {
+    margin-top: 10px;
 }
 
 .service-icon {
