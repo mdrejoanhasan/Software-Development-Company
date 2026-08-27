@@ -15,53 +15,75 @@
     color: #bec9da;
 }
 
-/* Hero / Carousel Image */
+/* =========================
+   HERO / CAROUSEL
+========================= */
+
+.carousel-item {
+    position: relative;
+}
+
 .carousel-item img {
-    height: 600px;
     width: 100%;
+    height: 600px;
     object-fit: cover;
     filter: brightness(55%);
 }
 
-/* Center Carousel Content */
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: auto;
-    bottom: auto;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 1000px;
-    text-align: center;
+/* FORCE CONTENT TO EXACT CENTER */
+.carousel .carousel-item .carousel-caption {
+    position: absolute !important;
+
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 20px !important;
+
+    transform: none !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    justify-content: center !important;
+    align-items: center !important;
+
+    text-align: center !important;
 }
 
-/* Title */
+/* TITLE */
 .carousel-caption h1 {
     font-size: 3rem;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
 }
 
-/* Description */
+/* DESCRIPTION */
 .carousel-caption p {
     font-size: 1rem;
-    margin-bottom: 15px;
+    margin: 0 0 10px 0;
+    max-width: 900px;
 }
 
-/* Button */
+/* BUTTON */
 .carousel-caption .btn {
     margin-top: 10px;
 }
 
-/* Mobile Responsive */
+/* MOBILE */
 @media (max-width: 768px) {
+
     .carousel-item img {
         height: 500px;
     }
 
-    .carousel-caption {
-        width: 90%;
+    .carousel .carousel-item .carousel-caption {
+        padding: 0 15px !important;
     }
 
     .carousel-caption h1 {
