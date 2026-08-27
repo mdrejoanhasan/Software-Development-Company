@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: Arial, sans-serif;
 }
 
@@ -15,31 +15,62 @@ body {
     color: #bec9da;
 }
 
+/* Hero / Carousel Image */
 .carousel-item img {
     height: 600px;
+    width: 100%;
     object-fit: cover;
     filter: brightness(55%);
 }
 
+/* Center Carousel Content */
 .carousel-caption {
+    position: absolute;
     top: 50%;
+    left: 50%;
+    right: auto;
     bottom: auto;
-    left: 10%;
-    right: 10%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
 }
 
+/* Title */
 .carousel-caption h1 {
     font-size: 3rem;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
+/* Description */
 .carousel-caption p {
     font-size: 1rem;
+    margin-bottom: 15px;
 }
 
+/* Button */
 .carousel-caption .btn {
     margin-top: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carousel-caption {
+        width: 90%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
 }
 
 .service-icon {
