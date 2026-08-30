@@ -1,0 +1,6 @@
+Quick customization:
+- Company name is currently "Rejoan Software".
+- Contact details are demo values in the HTML files.
+- Replace placeholder social links (#) with real URLs.
+- The copyright line is exactly: © 2026 Md. Rejoan Hasan. All Rights Reserved.
+- Images are local SVG assets, so the visual design works without downloading image files.
