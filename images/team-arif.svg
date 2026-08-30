@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00b894"/><stop offset="1" stop-color="#74b9ff"/></linearGradient></defs>
+<rect width="600" height="700" fill="#102a2a"/><circle cx="480" cy="100" r="170" fill="url(#g)" opacity=".28"/><circle cx="120" cy="610" r="210" fill="#74b9ff" opacity=".1"/>
+<circle cx="300" cy="265" r="120" fill="#f2c7a5"/><path d="M178 250c10-120 238-165 250 20-52-44-80-82-160-70-25 8-55 25-90 50z" fill="#182033"/><path d="M120 700c8-160 88-235 180-235s172 75 180 235z" fill="url(#g)"/><circle cx="255" cy="270" r="9" fill="#182033"/><circle cx="345" cy="270" r="9" fill="#182033"/><path d="M260 325q40 25 80 0" fill="none" stroke="#8d4c3e" stroke-width="8" stroke-linecap="round"/>
+<text x="300" y="665" text-anchor="middle" fill="white" font-family="Arial" font-size="28" font-weight="700">ARIF</text></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6c5ce7"/><stop offset="1" stop-color="#00d4ff"/></linearGradient></defs>
+<rect width="1000" height="700" fill="#111936"/><circle cx="840" cy="80" r="250" fill="url(#g)" opacity=".22"/><circle cx="120" cy="630" r="220" fill="#00d4ff" opacity=".1"/>
+<rect x="100" y="95" width="800" height="510" rx="28" fill="#f8fafc" opacity=".96"/><rect x="100" y="95" width="800" height="66" rx="28" fill="#eef1f7"/><circle cx="140" cy="128" r="8" fill="#ff6b6b"/><circle cx="168" cy="128" r="8" fill="#ffd166"/><circle cx="196" cy="128" r="8" fill="#00b894"/>
+<rect x="145" y="205" width="230" height="115" rx="16" fill="url(#g)" opacity=".9"/><rect x="400" y="205" width="230" height="115" rx="16" fill="#e9edf5"/><rect x="655" y="205" width="200" height="115" rx="16" fill="#e9edf5"/>
+<rect x="145" y="350" width="480" height="190" rx="16" fill="#edf1f7"/><path d="M180 490 C260 450 310 470 365 410 S470 430 520 370 S585 400 610 350" fill="none" stroke="#6c5ce7" stroke-width="9" stroke-linecap="round"/><rect x="655" y="350" width="200" height="190" rx="16" fill="url(#g)" opacity=".85"/>
+<text x="145" y="185" font-family="Arial" font-size="27" font-weight="700" fill="#111936">ORBIT • TASKS</text><text x="145" y="580" font-family="Arial" font-size="20" fill="#68738a">Focus-first workspace</text></svg>
